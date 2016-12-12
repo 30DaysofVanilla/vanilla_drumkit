@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  background-color: teal;
+  font-size: 18px;
+}
+body{
+  height: 1000px;
+  display: flex;
+  align-items: center;
+}
+#buttonContainer{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 850px;
+}
+
+#buttonContainer div {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  flex-direction: column;
+  width: 6rem;
+  border-radius: 50%;
+}
+
+#buttonContainer div:hover{
+  cursor: pointer;
+}
+
+.playing {
+  border: 1px solid lightcoral !important;
+  transform: scaleX(1,1.1);
+  box-shadow: 0px 0px 1px;
+}
